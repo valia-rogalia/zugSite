@@ -1,0 +1,1271 @@
+@media (min-width: 760px) and (max-width: 999px) {
+
+  /* Меню */
+  header {
+    padding: 25px 30px;
+  }
+
+  header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  header>div>span {
+    display: none;
+  }
+
+  #logo_wrapper {
+    width: 100px;
+    display: block;
+    position: static;
+  }
+
+  #logo_wrapper>img {
+    margin: 0px auto;
+  }
+
+  #header_list {
+    list-style: none;
+    margin: 0;
+  }
+
+  #header_list li {
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+  }
+
+  #header_list li:last-of-type {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .menu_item {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+
+  /* Главная картинка */
+  #tagline_wrapper {
+    padding: 80px 50px;
+    background-image: url(../img/mobileBanner.jpg);
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+
+
+  /* О нас */
+  #about_us_wrapper {
+    padding: 100px 0px;
+    text-align: center;
+  }
+
+  #bout_us_background {
+    width: 80%;
+    padding: 20px 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  #bout_us_background>p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-top: 10px;
+    text-indent: 30px;
+  }
+
+
+  /* Наши услуги */
+  #our_services_wrapper {
+    width: 100%;
+    padding: 100px 0px;
+  }
+
+  #our_services_wrapper li {
+    width: 49%;
+    margin-bottom: 60px;
+  }
+
+  #our_services_wrapper li>img {
+    width: 70%;
+    margin: 0px auto 30px auto;
+  }
+
+  #our_services_wrapper li>h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+
+  #our_services_wrapper li>p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+  }
+
+
+  /* Наши работы */
+  #our_works_wrapper {
+    width: 100%;
+    padding: 0px 20px 100px 20px;
+  }
+
+  #our_works_wrapper>ul {
+    margin: 80px auto 80px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .works_item {
+    width: 335px;
+    height: 335px;
+    margin-bottom: 10px;
+    z-index: 1;
+  }
+
+  .works_item:hover>img {
+    filter: none;
+  }
+
+  .works_item:hover>div {
+    opacity: 0;
+  }
+
+  .works_item>div>span {;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  .works_item_active {
+    position: relative;
+    transform: none;
+    border: none;
+  }
+
+  .works_item_active:hover>img {
+    filter: blur(4px);
+  }
+
+  .works_item_active:hover>div {
+    opacity: 1;
+    height: calc(100% - 1px);
+  }
+
+
+  /* Контакты */
+  #contacts {
+    background-image: url(../img/mobileMap.jpg);
+    padding: 100px 0px 500px 0px;
+  }
+
+  #contacts_background {
+    background-color: white;
+    padding: 40px 50px;
+    width: 60%;
+    margin: 0px auto;
+  }
+
+  #contacts_background h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  #contacts_list {
+    margin: 30px 0px 0px 0px;
+  }
+
+  #contacts_list li {
+    margin: 20px auto 0px auto;
+  }
+
+  #contacts_list a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  #contacts_list img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+
+  /* Футер */
+  footer {
+    width: 100%;
+    padding: 30px 0px;
+  }
+
+  #footer_wrapper {
+    margin: 0px auto;
+  }
+
+  #footer_wrapper span {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  #footer_wrapper a {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+}
+
+
+
+
+@media (min-width: 440px) and (max-width: 759px) {
+
+  /* Меню */
+  header {
+    padding: 20px 20px;
+  }
+
+  header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  header>div>span {
+    display: none;
+  }
+
+  #logo_wrapper {
+    width: 100px;
+    display: block;
+    position: static;
+  }
+
+  #logo_wrapper>img {
+    margin: 0px auto;
+  }
+
+  #header_list {
+    list-style: none;
+    margin: 0;
+    text-align: right;
+  }
+
+  #header_list li {
+    margin: 0px 30px 0px 0px;
+    width: 105px;
+  }
+
+  #header_list li:nth-child(2n) {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .menu_item {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+
+  /* Главная картинка */
+  #tagline_wrapper {
+    padding: 50px 50px;
+    background-image: url(../img/mobileBanner.jpg);
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+  }
+
+
+  /* О нас */
+  #about_us_wrapper {
+    padding: 50px 0px;
+    text-align: center;
+  }
+
+  #bout_us_background {
+    width: 90%;
+    padding: 20px 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-bottom: 5px;
+  }
+
+  #bout_us_background>p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 17px;
+    margin-top: 10px;
+    text-indent: 30px;
+  }
+
+
+  /* Наши услуги */
+  #our_services_wrapper {
+    width: 100%;
+    padding: 70px 0px;
+  }
+
+  #our_services_wrapper>ul {
+    margin-top: 50px;
+  }
+
+  #our_services_wrapper li {
+    width: 48%;
+    margin-bottom: 60px;
+  }
+
+  #our_services_wrapper li>img {
+    width: 60%;
+    margin: 0px auto 20px auto;
+  }
+
+  #our_services_wrapper li>h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+
+  #our_services_wrapper li>p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+  }
+
+
+  /* Наши работы */
+  #our_works_wrapper {
+    width: 100%;
+    padding: 0px 20px 100px 20px;
+  }
+
+  #our_works_wrapper>ul {
+    margin: 50px auto 50px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .works_item {
+    width: 410px;
+    height: 410px;
+    margin-bottom: 10px;
+    z-index: 1;
+  }
+
+  .works_item:hover>img {
+    filter: none;
+  }
+
+  .works_item:hover>div {
+    opacity: 0;
+  }
+
+  .works_item>div>span {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  .works_item_active {
+    position: relative;
+    transform: none;
+    border: none;
+  }
+
+  .works_item_active:hover>img {
+    filter: blur(4px);
+  }
+
+  .works_item_active:hover>div {
+    opacity: 1;
+    height: calc(100% - 1px);
+  }
+
+
+  /* Контакты */
+  #contacts {
+    background-image: url(../img/mobileMap.jpg);
+    padding: 100px 0px 500px 0px;
+  }
+
+  #contacts_background {
+    background-color: white;
+    padding: 40px 50px;
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  #contacts_background h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  #contacts_list {
+    margin: 30px 0px 0px 0px;
+  }
+
+  #contacts_list li {
+    margin: 20px auto 0px auto;
+  }
+
+  #contacts_list a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  #contacts_list img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+
+  /* Футер */
+  footer {
+    width: 100%;
+    background-color: #222939;
+    padding: 30px 0px;
+  }
+
+  #footer_wrapper {
+    margin: 0px auto;
+  }
+
+  #footer_wrapper span {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  #footer_wrapper span:first-of-type {
+    text-align: left;
+    width: 40%;
+  }
+  #footer_wrapper span:last-of-type {
+    text-align: right;
+    width: 40%;
+  }
+
+  #footer_wrapper a {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 400px) and (max-width: 439px) {
+
+  /* Меню */
+  header {
+    padding: 20px 20px;
+  }
+
+  header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  header>div>span {
+    display: none;
+  }
+
+  #logo_wrapper {
+    width: 100px;
+    display: block;
+    position: static;
+  }
+
+  #logo_wrapper>img {
+    margin: 0px auto;
+  }
+
+  #header_list {
+    list-style: none;
+    margin: 0;
+    text-align: right;
+  }
+
+  #header_list li {
+    margin: 0px 30px 0px 0px;
+    width: 105px;
+  }
+
+  #header_list li:nth-child(2n) {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .menu_item {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+
+  /* Главная картинка */
+  #tagline_wrapper {
+    padding: 50px 50px;
+    background-image: url(../img/mobileBanner.jpg);
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+  }
+
+
+  /* О нас */
+  #about_us_wrapper {
+    padding: 50px 0px;
+    text-align: center;
+  }
+
+  #bout_us_background {
+    width: 90%;
+    padding: 20px 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-bottom: 5px;
+  }
+
+  #bout_us_background>p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 17px;
+    margin-top: 10px;
+    text-indent: 30px;
+  }
+
+
+  /* Наши услуги */
+  #our_services_wrapper {
+    width: 100%;
+    padding: 70px 0px;
+  }
+
+  #our_services_wrapper>ul {
+    margin-top: 50px;
+  }
+
+  #our_services_wrapper li {
+    width: 48%;
+    margin-bottom: 60px;
+  }
+
+  #our_services_wrapper li>img {
+    width: 60%;
+    margin: 0px auto 20px auto;
+  }
+
+  #our_services_wrapper li>h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  #our_services_wrapper li>p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+  }
+
+
+  /* Наши работы */
+  #our_works_wrapper {
+    width: 100%;
+    padding: 0px 20px 100px 20px;
+  }
+
+  #our_works_wrapper>ul {
+    margin: 50px auto 50px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .works_item {
+    width: 410px;
+    height: 410px;
+    margin-bottom: 10px;
+    z-index: 1;
+  }
+  .works_item:hover>img {
+    filter: none;
+  }
+
+  .works_item:hover>div {
+    opacity: 0;
+  }
+
+  .works_item>div>span {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  .works_item_active {
+    position: relative;
+    transform: none;
+    border: none;
+  }
+
+  .works_item_active:hover>img {
+    filter: blur(4px);
+  }
+
+  .works_item_active:hover>div {
+    opacity: 1;
+    height: calc(100% - 1px);
+  }
+
+
+  /* Контакты */
+  #contacts {
+    background-image: url(../img/mobileMap.jpg);
+    padding: 100px 0px 500px 0px;
+  }
+
+  #contacts_background {
+    background-color: white;
+    padding: 40px 50px;
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  #contacts_background h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  #contacts_list {
+    margin: 30px 0px 0px 0px;
+  }
+
+  #contacts_list li {
+    margin: 20px auto 0px auto;
+  }
+
+  #contacts_list a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  #contacts_list img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+
+  /* Футер */
+  footer {
+    width: 100%;
+    background-color: #222939;
+    padding: 30px 0px;
+  }
+
+  #footer_wrapper {
+    margin: 0px auto;
+  }
+
+  #footer_wrapper span {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  #footer_wrapper span:first-of-type {
+    text-align: left;
+    width: 40%;
+  }
+  #footer_wrapper span:last-of-type {
+    text-align: right;
+    width: 40%;
+  }
+
+  #footer_wrapper a {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+}
+
+
+
+
+@media (min-width: 370px) and (max-width: 399px) {
+
+  /* Меню */
+  header {
+    padding: 20px 20px;
+  }
+
+  header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  header>div>span {
+    display: none;
+  }
+
+  #logo_wrapper {
+    width: 100px;
+    display: block;
+    position: static;
+  }
+
+  #logo_wrapper>img {
+    margin: 0px auto;
+  }
+
+  #header_list {
+    list-style: none;
+    margin: 0;
+    text-align: right;
+  }
+
+  #header_list li {
+    margin: 0px 30px 0px 0px;
+    width: 90px;
+  }
+
+  #header_list li:nth-child(2n) {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .menu_item {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+
+  /* Главная картинка */
+  #tagline_wrapper {
+    padding: 50px 50px;
+    background-image: url(../img/mobileBannerV.jpg);
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+  }
+
+
+  /* О нас */
+  #about_us_wrapper {
+    padding: 50px 0px;
+    text-align: center;
+  }
+
+  #bout_us_background {
+    width: 90%;
+    padding: 20px 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-bottom: 0px;
+  }
+
+  hr {
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+
+  #bout_us_background>p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 17px;
+    margin-top: 10px;
+    text-indent: 30px;
+  }
+
+
+  /* Наши услуги */
+  #our_services_wrapper {
+    width: 100%;
+    padding: 70px 10px 40px 10px;
+  }
+
+  #our_services_wrapper>ul {
+    margin-top: 50px;
+  }
+
+  #our_services_wrapper li {
+    width: 48%;
+    margin-bottom: 60px;
+  }
+
+  #our_services_wrapper li>img {
+    width: 60%;
+    margin: 0px auto 20px auto;
+  }
+
+  #our_services_wrapper li>h3 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+
+  #our_services_wrapper li>p {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    margin-bottom: 10px;
+    padding: 0px 5px;
+  }
+
+
+  /* Наши работы */
+  #our_works_wrapper {
+    width: 100%;
+    padding: 0px 20px 100px 20px;
+  }
+
+  #our_works_wrapper>ul {
+    margin: 50px auto 50px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .works_item {
+    width: 335px;
+    height: 335px;
+    margin-bottom: 10px;
+    z-index: 1;
+  }
+
+  .works_item:hover>img {
+    filter: none;
+  }
+
+  .works_item:hover>div {
+    opacity: 0;
+  }
+
+  .works_item>div>span {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  .works_item_active {
+    position: relative;
+    transform: none;
+    border: none;
+  }
+
+  .works_item_active:hover>img {
+    filter: blur(4px);
+  }
+
+  .works_item_active:hover>div {
+    opacity: 1;
+    height: calc(100% - 1px);
+  }
+
+
+  /* Контакты */
+  #contacts {
+    background-image: url(../img/mobileMap.jpg);
+    padding: 100px 0px 400px 0px;
+  }
+
+  #contacts_background {
+    background-color: white;
+    padding: 40px 50px;
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  #contacts_background h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  #contacts_list {
+    margin: 30px 0px 0px 0px;
+  }
+
+  #contacts_list li {
+    margin: 20px auto 0px auto;
+  }
+
+  #contacts_list a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  #contacts_list img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+
+  /* Футер */
+  footer {
+    width: 100%;
+    background-color: #222939;
+    padding: 30px 0px;
+  }
+
+  #footer_wrapper {
+    margin: 0px auto;
+  }
+
+  #footer_wrapper span {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  #footer_wrapper span:first-of-type {
+    text-align: left;
+    width: 40%;
+  }
+  #footer_wrapper span:last-of-type {
+    text-align: right;
+    width: 40%;
+  }
+
+  #footer_wrapper a {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+}
+
+
+
+
+@media (max-width: 369px) {
+
+  /* Меню */
+  header {
+    padding: 15px 15px;
+  }
+
+  header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  header>div>span {
+    display: none;
+  }
+
+  #logo_wrapper {
+    width: 100px;
+    display: block;
+    position: static;
+  }
+
+  #logo_wrapper>img {
+    margin: 0px auto;
+  }
+
+  #header_list {
+    list-style: none;
+    margin: 0;
+    text-align: right;
+  }
+
+  #header_list li {
+    margin: 0px 20px 0px 0px;
+    width: 80px;
+  }
+
+  #header_list li:nth-child(2n) {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .menu_item {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+
+  /* Главная картинка */
+  #tagline_wrapper {
+    padding: 50px 10px;
+    background-image: url(../img/mobileBannerV.jpg);
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  h1 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 35px;
+  }
+
+
+  /* О нас */
+  #about_us_wrapper {
+    padding: 50px 0px;
+    text-align: center;
+  }
+
+  #bout_us_background {
+    width: 90%;
+    padding: 20px 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-bottom: 0px;
+  }
+
+  hr {
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+
+  #bout_us_background>p {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+    margin-top: 10px;
+    text-indent: 30px;
+  }
+
+
+  /* Наши услуги */
+  #our_services_wrapper {
+    width: 100%;
+    padding: 70px 10px 0px 10px;
+  }
+
+  #our_services_wrapper>ul {
+    margin-top: 50px;
+  }
+
+  #our_services_wrapper li {
+    width: 48%;
+    margin-bottom: 60px;
+  }
+
+  #our_services_wrapper li>img {
+    width: 60%;
+    margin: 0px auto 20px auto;
+  }
+
+  #our_services_wrapper li>h3 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+
+  #our_services_wrapper li>p {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+    margin-bottom: 10px;
+    padding: 0px 5px;
+  }
+
+
+  /* Наши работы */
+  #our_works_wrapper {
+    width: 100%;
+    padding: 0px 20px 100px 20px;
+  }
+
+  #our_works_wrapper>ul {
+    margin: 50px auto 50px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .works_item {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 10px;
+    z-index: 1;
+  }
+
+  .works_item:hover>img {
+    filter: none;
+  }
+
+  .works_item:hover>div {
+    opacity: 0;
+  }
+
+  .works_item>div>span {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  .works_item_active {
+    position: relative;
+    transform: none;
+    border: none;
+  }
+
+  .works_item_active:hover>img {
+    filter: blur(4px);
+  }
+
+  .works_item_active:hover>div {
+    opacity: 1;
+    height: calc(100% - 1px);
+  }
+
+
+  /* Контакты */
+  #contacts {
+    background-image: url(../img/mobileMap.jpg);
+    padding: 100px 10px 400px 10px;
+  }
+
+  #contacts_wrapper {
+    padding: 0;
+  }
+
+  #contacts_background {
+    background-color: white;
+    padding: 40px 20px;
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  #contacts_background h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  #contacts_list {
+    margin: 30px 0px 0px 0px;
+  }
+
+  #contacts_list li {
+    margin: 20px auto 0px auto;
+  }
+
+  #contacts_list a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  #contacts_list img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+
+  /* Футер */
+  footer {
+    width: 100%;
+    background-color: #222939;
+    padding: 30px 0px;
+  }
+
+  #footer_wrapper {
+    margin: 0px auto;
+  }
+
+  #footer_wrapper span {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  #footer_wrapper span:first-of-type {
+    text-align: left;
+    width: 45%;
+  }
+  #footer_wrapper span:last-of-type {
+    text-align: right;
+    width: 45%;
+  }
+
+  #footer_wrapper a {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+}

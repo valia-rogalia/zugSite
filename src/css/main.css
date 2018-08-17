@@ -1,0 +1,403 @@
+@font-face {
+    font-family: OnePlusOneMain; /* Имя шрифта */
+    src: url(../fonts/OnePlusOneMain.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: OnePlusOne; /* Имя шрифта */
+    src: url(../fonts/OnePlusOne.otf); /* Путь к файлу со шрифтом */
+}
+
+* {
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+/* Меню */
+header {
+  padding: 25px 50px;
+  background-color: white;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+header>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#logo_wrapper {
+  width: 100px;
+  display: block;
+  position: absolute;
+  left: calc(50% - 50px);
+}
+
+#logo_wrapper>img {
+  vertical-align: top;
+  width: inherit;
+  margin: 0px auto;
+}
+
+#header_list {
+  list-style: none;
+  margin: 0;
+}
+
+#header_list li {
+  display: inline-block;
+  margin: 0px 30px 0px 0px;
+}
+
+#header_list li:last-of-type {
+  margin: 0px 0px 0px 0px;
+}
+
+.menu_item {
+  font-family: OnePlusOne;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu_item:hover {
+  color: #2868da;
+  text-decoration: none;
+}
+
+.menu_active_item {
+  color: #2868da;
+  text-decoration: none;
+}
+
+
+/* Главная картинка */
+#tagline_wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0px 100px;
+  background-image: url(../img/mainBanner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+h1 {
+  font-family: OnePlusOneMain ;
+  color: black;
+  font-size: 45px;
+  letter-spacing: 5px;
+  line-height: 70px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+
+/* О нас */
+#about_us_wrapper {
+  width: 100%;
+  margin: 0;
+  background-image: url(../img/aboutUsBanner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 300px 0px;
+  text-align: center;
+}
+
+#bout_us_background {
+  background-color: white;
+  margin: 0px auto;
+  padding: 40px 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: OnePlusOneMain ;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 4px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+hr {
+  background-color: #2868da;
+  margin-bottom: 30px;
+}
+
+#bout_us_background>p {
+  font-family: OnePlusOne;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  text-align: left;
+  margin-top: 10px;
+  text-indent: 30px;
+}
+
+
+/* Наши услуги */
+#our_services_wrapper {
+  width: 100%;
+  padding: 100px 0px;
+  text-align: center;
+}
+
+#our_services_wrapper>ul {
+  margin: 80px auto 0px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#our_services_wrapper li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 24%;
+  margin-bottom: 0px;
+}
+
+#our_services_wrapper li>img {
+  width: 70%;
+  margin: 0px auto 30px auto;
+}
+
+#our_services_wrapper li>h3 {
+  font-family: OnePlusOneMain;
+  color: black;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#our_services_wrapper li>p {
+  font-family: OnePlusOne;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  padding: 0px 20px;
+}
+
+
+/* Наши работы */
+#our_works_wrapper {
+  width: 100%;
+  padding: 60px 0px 100px 0px;
+  text-align: center;
+}
+
+#our_works_wrapper>ul {
+  margin: 80px auto 80px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.works_item {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  width: 275px;
+  height: 275px;
+  background-color: #e7e7e7;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-out;
+  position: relative;
+  z-index: 1;
+}
+
+.works_item:hover>img {
+  filter: blur(4px);
+}
+
+.works_item:hover>div {
+  opacity: 1;
+  height: calc(100% - 1px);
+}
+
+.works_item>img {
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+  object-fit: cover;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.works_item>div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0px 30px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.works_item>div>span {
+  font-family: OnePlusOne;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.works_item_active {
+  position: relative;
+  z-index: 2;
+  transform: scale(1.6,1.6);
+  border: 3px solid #e7e7e7;
+}
+
+.works_item_active:hover>img {
+  filter: none;
+}
+
+.works_item_active:hover>div {
+  opacity: 0;
+  height: calc(100% - 1px);
+}
+
+
+/* Контакты */
+#contacts {
+  width: 100%;
+  margin: 0;
+  background-image: url(../img/Map.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 300px 0px;
+  text-align: center;
+}
+
+#contacts_wrapper {
+  margin: 0px auto;
+  text-align: center;
+}
+
+#contacts_background {
+  background-color: white;
+  padding: 40px 50px;
+  width: 400px;
+}
+
+#contacts_background h3 {
+  font-family: OnePlusOne;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+#contacts_list {
+  list-style: none;
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+}
+
+#contacts_list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0px auto;
+}
+#contacts_list li:first-of-type {
+  margin-top: 0px;
+  justify-content: space-between;
+}
+
+#contacts_list a {
+  color: black;
+  text-decoration: none;
+  font-family: OnePlusOne;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+#contacts_list a:hover {
+  color: #2868da;
+}
+
+#contacts_list img {
+  width: 30px;
+  margin-right: 10px;
+}
+#contacts_list li:first-of-type img {
+  margin: 0px;
+}
+
+
+/* Футер */
+footer {
+  width: 100%;
+  background-color: #222939;
+  padding: 30px 0px;
+}
+
+#footer_wrapper {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer_wrapper span {
+  color: #888888;
+  text-decoration: none;
+  font-family: OnePlusOne;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+#footer_wrapper a {
+  color: #888888;
+  text-decoration: none;
+  font-family: OnePlusOne;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-decoration: none;
+}
+#footer_wrapper a:hover {
+  color: #2868da;
+}
